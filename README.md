@@ -1,7 +1,5 @@
 # elasticsearch korean-filter-plugin
 
--------
-
 [엘라스틱서치 실무가이드][1] 책에서 제공되는 자동완성 플러그인을 수정한 플러그인 입니다   
 [javacafe-project/elasticsearch-elasticsearch-plugin][2] 기반으로 작성된 플러그인 이며 코드에 대한 권리는 해당 repo 에 있습니다    
 코드 수정 및 이용에 문제가 될 경우 언제든지 연락 주시면 바로 처리 하겠습니다   
@@ -21,8 +19,6 @@
 
 ## 필터 리스트
 
--------
-
 1. 한글 자소 분리 필터 - jaso_filter
 2. 한글 초성 분리 필터 - chosung_filter
 3. 영한 오타 변환 필터 - eng2kor_filter
@@ -30,16 +26,12 @@
 
 ## 개발환경
 
--------
-
 ```
 maven
 elasticsearch 7.14.1
 ```
 
 ## 플러그인 빌드 방법
-
--------
 
 #### 1. git clone
 ```shell
@@ -58,8 +50,6 @@ mvn package
 
 
 ## 사용방법
-
--------
 
 #### 1. elasticsearch index settings / mappings
 ```shell
